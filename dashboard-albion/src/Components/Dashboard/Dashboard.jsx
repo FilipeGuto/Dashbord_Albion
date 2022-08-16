@@ -1,5 +1,6 @@
 import React from "react";
 import "./dashboard.css";
+import Infos from "../Infos/Infos";
 
 export default function Dashboard() {
   return (
@@ -7,16 +8,16 @@ export default function Dashboard() {
       <div className="panel-container">
         <div className="container">
           <div className="row">
-            <div className="col one">1 of 2</div>
+            <div className="col one"></div>
             <div className="col two">
               <div>
-                DADOS
+                <Infos />
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col three">1 of 3</div>
-            <div className="col four">2 of 3</div>
+            <div className="col three"></div>
+            <div className="col four"></div>
           </div>
         </div>
       </div>
